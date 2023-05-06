@@ -1,0 +1,123 @@
+.test{
+    background-color: green;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+
+.sample{
+    color:rgb(44, 54, 57);
+    color:rgb(63, 78, 79);
+    color:rgb(162, 123, 92);
+    color:rgb(220, 215, 201);
+    border: 3px solid red;
+} 
+
+
+.header-container{
+    display:flex;
+    justify-content:space-between;
+    align-items:end;
+    margin:10px;
+    padding:10px;
+    border-color: rgb(162, 123, 92);
+    border-style: solid;
+    border-width:0px 0px 4px 0px;
+}
+
+.header-container .icon{
+    margin-left:20px ;
+    font-weight: bold;
+}
+.icon-container{
+    display: flex;
+    background-color: rgb(44, 54, 57);
+    border-radius: 10px;
+    padding: 10px 10px 20px 10px;
+    align-items:baseline;
+    justify-content: center;
+    color: rgb(162, 123, 92);
+}
+.icon-slash{
+    font-size: 150%;
+    font-weight: 100;
+}
+
+.icon-text{
+    font-family: 'Roboto Mono', monospace;
+    font-style: italic;
+    font-size: 18px;
+}
+
+.header-navbar{
+    display: flex;
+    align-items: baseline;
+    margin-right: 40px;
+}
+
+.header-navbar .navbar-element{
+    background-color: rgb(44, 54, 57);
+    margin: 0px 3px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.intro{
+    margin: 40px;
+    color: rgb(220, 215, 201);
+}
+
+.intro .intro-welcome{
+    margin-top: 20px;
+    font-size: 32px;
+    text-align: center;
+    
+}
+.intro .intro-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro .intro-icon .icon-container{
+    padding: 0px 60px 12px 60px;
+}
+
+.intro p{
+    text-indent: 40px;
+    font-size: 18px;
+}
+
+.articles{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px 40px;
+    justify-content: center;
+}
+
+.article{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 150px;
+    margin: 20px;
+    border-radius: 7px;
+    border-style: solid;
+    border-width:3px 0px 3px 0px ;
+    border-color: rgb(162, 123, 92);
+    background-color: rgb(44, 54, 57);
+}
+.article .article-thumbnail{
+    height: 100px;
+}
+
+.article .article-title{
+    display: flex;
+    padding: 10px;
+    background-color: rgb(44, 54, 57);
+    border-style: solid;
+    border-radius: 7px ;
+    border-width:3px 0px 0px 0px ;
+    border-color: rgb(162, 123, 92);
+    justify-content: center;
+    align-content: center;
+}
