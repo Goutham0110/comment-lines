@@ -5,7 +5,7 @@ export default function Article({title}){
   return (
     <div className="article">
       <div className="article-thumbnail">
-        <img src=""/>
+        <p></p>
       </div>
       <div className="article-title">
         {title}

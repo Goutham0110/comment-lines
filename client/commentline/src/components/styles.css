@@ -90,6 +90,18 @@
     font-size: 18px;
 }
 
+.CloseButton{
+    display: flex;
+    font-weight: bolder;
+    font-size: 16px;
+    background-color: rgb(44, 54, 57);
+    justify-content: center;
+    align-items: center;
+
+    width: 35px;
+    height:35px;
+    border-radius: 100%; 
+}
 
 .articles{
     display: flex;
@@ -212,4 +224,25 @@
     padding: 8px 18px;
     color: rgb(211, 162, 107);
     font-size: 16px;
+}
+
+.ArticlePage {
+    margin:2% 5%;
+}
+
+.ArticlePage .content-title{
+    background-color: rgb(44, 54, 57);
+    margin-bottom:5px;
+    border-radius: 8px;
+    display:flex;
+    padding-left: 20%;
+    color: rgb(211, 162, 107);
+    font-style: italic;
+}
+
+.ArticlePage .content-text{
+    background-color: rgb(44, 54, 57);
+    border-radius: 8px;
+    padding:10px 30px;
+    color: rgb(220, 215, 201);
 }
