@@ -1,17 +1,24 @@
 import React from "react"
 import { useParams } from "react-router-dom";
-import CloseButton from "./CloseButton"
 import "./styles.css"
 
-export default function ArticlePage(){
+export default function ArticlePage({art}){
   let { title } = useParams();
+  let content="";
+  art.forEach((element)=>{
+    if(title===element.title){
+      content=element.content;
+    }
+  })
+
   return (
     <div className="ArticlePage">
       <div className="content-title">
-        <h1>"""{title}"""</h1>
+        <p>//</p>
+        <h1>{title}</h1>
       </div>
       <div className="content-text"> 
-        <p></p>
+        <p>{content}</p>
       </div>
     </div>
   )

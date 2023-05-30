@@ -1,5 +1,6 @@
 .test{
     background-color: green;
+    margin:40px;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
@@ -111,6 +112,12 @@
     
 }
 
+.articlesLink{
+    text-decoration: none;
+    color: rgb(162, 123, 92);
+    font-style:italic ;
+}
+
 .article{
     display: flex;
     flex-direction: column;
@@ -125,26 +132,33 @@
 }
 
 .article .article-thumbnail{
-    height: 100px;
+    display: flex;
+    height: 120px;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    font-style: italic;
+
 }
 
-.article .article-title{
+.article .article-author{
     display: flex;
-    padding: 10px;
+    padding: 10px 25px 10px 10px;
     background-color: rgb(44, 54, 57);
     border-style: solid;
     border-radius: 7px ;
     border-width:3px 0px 0px 0px ;
     border-color: rgb(162, 123, 92);
-    justify-content: center;
-    align-content: center;
+    justify-content: end;
+    align-content:center;
+    font-size: 14px;
 }
 
 .Articleshead{
     display: flex;
     justify-content: center;
     align-items: center;
-    
     color: rgb(211, 162, 107);
     font-size: 20px; 
     font-style: italic;
@@ -162,6 +176,9 @@
     font-size: 14px; 
     font-weight: bold;
     width: fit-content;
+    height: 40px;
+    align-items: center;
+    text-decoration: none;
 }
 
 .Articles-header{
@@ -174,6 +191,7 @@
     background-color:rgb(44, 54, 57);
     border-radius: 10px;
     padding: 10px;
+    margin: 20px;
 }
 
 
@@ -194,7 +212,7 @@
     margin: 8px 10px;
     color: rgb(162, 123, 92);
     font-size: 18px;
-    
+    padding-right: 20%;
 }
 
 .formElement label{
@@ -208,6 +226,7 @@
     background-color:rgb(63, 78, 79);
     margin-left: 7px;
     padding: 10px 14px;
+    width: 60%;
     color: rgb(220, 215, 201);
 }
 
@@ -231,6 +250,8 @@
 }
 
 .ArticlePage .content-title{
+    display:flex;
+    align-items: center;
     background-color: rgb(44, 54, 57);
     margin-bottom:5px;
     border-radius: 8px;
@@ -240,9 +261,16 @@
     font-style: italic;
 }
 
+.ArticlePage .content-title p{
+    font-size: 32px;
+    font-weight: 100;
+    font-style: normal;
+}
+
 .ArticlePage .content-text{
     background-color: rgb(44, 54, 57);
     border-radius: 8px;
     padding:10px 30px;
     color: rgb(220, 215, 201);
+    text-indent: 8%;
 }
